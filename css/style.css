@@ -3,18 +3,46 @@ html {
   text-align: center;
 }
 
-
-h1 {
-  color: SeaGreen;
+.breaker {
+	background: no-repeat center url(../resources/the-flatiron-building.png);
+	color: white;
 }
 
+a {
+  text-decoration: underline;
+  color: inherit;
 
-p, 
-li {
+}
+
+h1 {
+  font-size: 70px;
+
+}
+
+h2 {
+	font-size: 32px;
+
+}
+
+h3 {
+	font-size: 23px;
+}
+
+.nav {
   font-size: 18px;
 }
 
+.services p {
+	font-size: 14px;
+}
 
-a {
-  text-decoration: none;
+.services img {
+	justify-content: center;
+}
+
+.footer {
+	color: white;
+	text-align: left;
+	font-size: 11px;
+	background-color: dimgray;
 }
